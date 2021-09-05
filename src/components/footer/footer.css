@@ -1,0 +1,87 @@
+body {
+  width: 100% !important;
+}
+
+.file {
+  height: 100vh;
+  background-color: blueviolet;
+}
+
+.fila {
+  height: 100vh;
+  background-color: burlywood;
+}
+
+#buttona {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 100%;
+  background-color: blueviolet;
+  color: black;
+  border: none;
+}
+
+#buttona:hover {
+  background-color: rgb(4, 0, 255);
+  color: red;
+}
+
+li {
+  margin: 10px 0;
+}
+
+/* .text {
+  font-size: 36px;
+} */
+
+.fred {
+  height: 40px;
+  width: 40px;
+}
+
+.small {
+  width: 150px;
+  height: 70px;
+}
+
+.logo_resize {
+  width: 5%;
+  height: 5%;
+}
+
+
+.dropdown-large {
+  padding: 20px;
+}
+
+@media all and (min-width: 992px) {
+  .dropdown-large {
+    min-width: 500px;
+  }
+}
+
+.dropdown-large {
+  min-width: 1000px !important;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  pointer-events: none;
+}
+
+
+.btn {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.list-unstyled {
+  margin: 7px !important;
+}

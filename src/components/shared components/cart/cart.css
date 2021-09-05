@@ -1,0 +1,8 @@
+.background {
+  margin-left: -10;
+  background-color: #828283;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  align-items: center;
+}

@@ -1,0 +1,8 @@
+.zoom {
+  width: 400px;
+  cursor: zoom-in;
+}
+
+.zoom:hover {
+  transform: scale(1.01);
+}

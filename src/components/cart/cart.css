@@ -1,0 +1,24 @@
+.nav_logo {
+  height: 45px;
+}
+
+.sec_logo_edit {
+  height: 45px;
+  width: 40px;
+}
+
+#show_more {
+  display: none;
+}
+
+.lines {
+  text-decoration: underline solid green 3px;
+}
+
+.cos {
+  background-color: rgb(245, 245, 246) !important;
+}
+
+.closed {
+  display: none;
+}
